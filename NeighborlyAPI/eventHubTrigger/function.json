@@ -1,0 +1,13 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "name": "event",
+      "direction": "in",
+	  "eventHubName": "micro-func-event",
+	  "connection": "Endpoint=sb://micro-event-hub.servicebus.windows.net/;SharedAccessKeyName=event_hub_instance;SharedAccessKey=cwYlJwCnFMHfrqcyysKFKopsk/hXo9ZQQytQYxE1Z/U=;EntityPath=micro-func-event"
+    }
+  ]
+}
+
